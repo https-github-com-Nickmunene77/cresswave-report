@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EmployeeReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="76da9f1f-e090-4545-8550-e33583fdeb3b">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="560" height="64" backcolor="#96160F" uuid="011558b0-92e2-47dd-8bef-3c3df5cf79c7"/>
+				<staticText>
+					<reportElement mode="Transparent" x="9" y="18" width="201" height="30" forecolor="#FFFCFC" uuid="e67f03fc-28ef-4210-a4b0-9cb6f0f7a841"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Arial Black" size="20"/>
+					</textElement>
+					<text><![CDATA[Creswave Report]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="2" width="178" height="20" forecolor="#E3DCDC" uuid="a7626c84-71a9-496b-b971-282abc8e46b2"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Algerian" size="12"/>
+					</textElement>
+					<text><![CDATA[Nairobi 00100]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="20" width="178" height="20" forecolor="#DBD5D5" uuid="4ed6f335-c5cb-4cd5-9d38-7f0324311833"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Algerian" size="12"/>
+					</textElement>
+					<text><![CDATA[cresswave.co.ke]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="40" width="178" height="20" forecolor="#DBD5D5" uuid="8bd12454-35be-4345-8aff-2e2a3b736630"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom">
+						<font fontName="Algerian" size="12"/>
+					</textElement>
+					<text><![CDATA[cresswave limited]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
