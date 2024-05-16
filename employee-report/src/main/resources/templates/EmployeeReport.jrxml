@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EmployeeReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="76da9f1f-e090-4545-8550-e33583fdeb3b">
-	<parameter name="Department_filter" class="java.lang.String"/>
-	<parameter name="Sarary_range" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -10,7 +8,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="72" splitType="Stretch">
+		<band height="104" splitType="Stretch">
 			<frame>
 				<reportElement mode="Opaque" x="0" y="0" width="560" height="64" backcolor="#96160F" uuid="011558b0-92e2-47dd-8bef-3c3df5cf79c7"/>
 				<staticText>
@@ -45,36 +43,10 @@
 		</band>
 	</title>
 	<pageHeader>
-		<band height="26" splitType="Stretch">
-			<frame>
-				<reportElement x="360" y="0" width="200" height="20" uuid="7b39779f-befb-45a6-95ac-72c004d31552"/>
-				<staticText>
-					<reportElement x="0" y="0" width="100" height="20" uuid="b6a52aa9-00fa-44ba-ad69-c81a3b25dde5"/>
-					<textElement>
-						<font size="12"/>
-					</textElement>
-					<text><![CDATA[Generated on : ]]></text>
-				</staticText>
-				<textField pattern="MMMMM dd, yyyy">
-					<reportElement x="100" y="0" width="100" height="20" uuid="4bbec2c0-e73a-44fe-8012-61b912d449f8"/>
-					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
+		<band height="35" splitType="Stretch"/>
 	</pageHeader>
 	<columnHeader>
-		<band height="103" splitType="Stretch">
-			<staticText>
-				<reportElement x="20" y="25" width="80" height="20" forecolor="#9E1683" uuid="dca3cee3-0a4d-46bb-b483-5f99703c2b99">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-				</reportElement>
-				<textElement>
-					<font fontName="Bodoni MT Black" size="16" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Filters->]]></text>
-			</staticText>
-		</band>
+		<band height="61" splitType="Stretch"/>
 	</columnHeader>
 	<detail>
 		<band height="125" splitType="Stretch"/>
